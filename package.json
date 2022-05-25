@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "fs": "^0.0.1-security",
+    "nodemon": "^2.0.16"
+  },
+  "name": "timlohrer.de",
+  "version": "1.0.0",
+  "main": "src/app.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "nodemon ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TimLohrer/timlohrer.de.git"
+  },
+  "author": "TimLohrer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TimLohrer/timlohrer.de/issues"
+  },
+  "homepage": "https://github.com/TimLohrer/timlohrer.de#readme",
+  "description": ""
+}
