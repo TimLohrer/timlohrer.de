@@ -1,0 +1,165 @@
+body {
+    background-color: var(--light);
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    margin: 0px;
+    color: white;
+}
+
+header {
+    height: 7.5ch;
+    display: flex;
+    align-content: center;
+    justify-content: space-between;
+    background-color: var(--dark);
+    width: auto;
+}
+
+section {
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.header-title {
+    margin-top: .75ch;
+    margin-left: 1ch;
+    cursor: pointer;
+    color: var(--green);
+}
+
+.language {
+    display: flex;
+    margin-right: 1ch;
+    place-items: center;
+    align-items: center;
+}
+
+.lang-selector {
+    background-color: var(--grey);
+    margin: 5px;
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    align-items: center;
+    display: grid;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: translateX(0);
+    filter: blur(0);
+    transition-duration: .25s;
+}
+
+.lang-selector:hover {
+    background-color: var(--light);
+    transition-duration: .25s;
+}
+
+.lang {
+    border-radius: 5px;
+    border-width: 0px;
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    display: flex;
+    margin-right: .5ch;
+    opacity: 0;
+    transform: translateX(-150%);
+    filter: blur(1);
+}
+
+.lang-btns {
+    height: 36px;
+    display: flex;
+    place-items: center;
+}
+
+.lang img {
+    width: 28px;
+    height: 28px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.lang:nth-child(1) {
+    transition-delay: .1s;
+}
+.lang:nth-child(2) {
+    transition-delay: .15s;
+}
+.lang:nth-child(3) {
+    transition-delay: .125s;
+}
+
+.lang_expanded {
+    opacity: 1;
+    cursor: pointer;
+    transform: translateX(-3%);
+    filter: blur(0);
+}
+
+.lang_expanded:nth-child(1) {
+    transition-delay: .1s;
+}
+.lang_expanded:nth-child(2) {
+    transition-delay: .05s;
+}
+.lang_expanded:nth-child(3) {
+    transition-delay: .025s;
+}
+
+.lang_inactive {
+    background-color: var(--elight);
+    transition-duration: .35s;
+    color: var(--dark);
+}
+
+.lang_active {
+    background-color: var(--green);
+    transition-duration: .35s;
+    color: white;
+}
+
+.github {
+    background-color: var(--grey);
+    margin: 5px;
+    width: 36px;
+    height: 36px;
+    place-items: center;
+    align-items: center;
+    display: grid;
+    cursor: pointer;
+    border-radius: 5px;
+    transform: translateX(0);
+    filter: blur(0);
+    transition-duration: .25s;
+}
+
+.github:hover {
+    background-color: var(--light);
+    transition-duration: .25s;
+}
+
+.github img {
+    width: 28px;
+    height: 28px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.main-title {
+    font-size: 40;
+}
+
+.i-am {
+    text-align: center;
+    font-size: 30px;
+}
+
+.typed {
+    color: var(--green);
+    font-size: 35px;
+    font-weight: 600;
+}

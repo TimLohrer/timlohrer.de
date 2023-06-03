@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tim Lohrer</title>
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <title id="{page.title}" class="PAGE_TITLE"></title>
 </head>
-<body>
-    
+<body class="Roboto">
+    <header id="header">
+        <h1 class="hidden top header-title" id="{header.title}"></h1>
+        <div class="hidden top language">
+            <div class="lang-btns">
+                <button id="lang_en" class="hidden top lang_inactive lang" onclick="changeLang('en')">
+                    <img src="../assets/svg/uk.svg" alt="Flag of the UK">
+                </button>
+                <button id="lang_de" class="hidden top lang_inactive lang" onclick="changeLang('de')">
+                    <img src="../assets/svg/de.svg" alt="Flag of Germany">
+                </button>
+                <button id="lang_enchant" class="hidden top lang_inactive lang" onclick="changeLang('enchant')">
+                    <img height="32px" width="32px" src="../assets/images/enchanting_table.png" alt="Minecraft Enchanting Table">
+                </button>
+            </div>
+            <div class="lang-selector" onclick="langDropdown()">
+                <img src="../assets/svg/lang.svg" alt="Language">
+            </div>
+            <div class="github" onclick="window.open('https:\/\/github.com/timlohrer')">
+                <img src="../assets/images/github.png" alt="GitHub Logo">
+            </div>
+        </div>
+    </header>
+    <section id="main" class="i-am-wrapper">
+        <h1 class="hidden top main-title" id="{main.hello}"></h1>
+        <article class="hidden top i-am" id="{i-am.start}"></article>
+    </section>
 </body>
 </html>
+{{ global_css }}
+{{ css }}
+{{ global_js }}
+{{ js }}

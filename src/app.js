@@ -1,25 +1,25 @@
-require('dotenv').config()
-const express = require('express')
-const path = require('path')
-const cors = require('cors')
-const app = express()
+require('dotenv').config();
+const express = require('express');
+const cors = require('cors');
+const path = require('path');
 
-app.use(express.static(path.join(__dirname, 'public')))
-app.use(express.json())
-app.use(cors());
+const app = express();
 
-const build_page = require('./utils/buildPage')
+app.use(express.static(path.join(__dirname, 'public')));
+app.use(cors({ origin: [process.env.URL] }));
+app.use(express.json());
+
+const buildPage = require('./utils/buildPage');
 
 app.get('/', async (req, res) => {
-    return res.send(build_page('index'))
+    delete require.cache[require.resolve('./data/en/content.index.json')];
+    delete require.cache[require.resolve('./data/de/content.index.json')];
+    const en = require('./data/en/content.index.json');
+    const de = require('./data/de/content.index.json');
+    const content = JSON.stringify({ en: en, de: de })
+    res.send(buildPage('index', 'content', content));
 })
 
-app.get('/*', (req, res) => {
-    res.redirect('/')
-})
-
-server.listen(process.env.PORT, async () => {
-    console.clear()
-    console.log(`Now listening on port ${process.env.PORT} (${process.env.URL})`)
-    console.log()
-})
+app.listen(process.env.PORT, () => {
+    console.log(`Now online on port ${process.env.PORT}`);
+});
