@@ -1,0 +1,8 @@
+# .air.toml
+
+[build]
+  cmd = "go build -o ./tmp/main ./main.go"
+  watch = ["main.go"]
+
+[run]
+  cmd = "./tmp/main"
