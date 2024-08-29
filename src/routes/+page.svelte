@@ -90,13 +90,13 @@
 		<div class="content">
 			<p>
 				Hi <span class="wave">👋</span><br />I am <b title="Yup, thats me! 🙋‍♂️">Tim Lohrer</b>.<br
-				/>An
+				/>A
 				<span
 					title={daysUntilBirthday > 0
 						? `${daysUntilBirthday} days until my birthday 🥳`
 						: 'Today is my birthday! 🥳🥳🥳'}>{age}</span
 				>
-				year old full stack software engineer from germany.<br /><br />I have over 5 years of
+				year old full stack software engineer from Germany.<br /><br />I have over 5 years of
 				experience with <b title={frontend.join(', ')}>frontend</b>,
 				<b title={backend.join(', ')}>backend</b>, <b title={desktop.join(', ')}>desktop</b> &
 				<b title={mobile.join(', ')}>cross platform mobile app</b> development, as well as
