@@ -147,7 +147,7 @@
 		display: flex;
 		align-items: center;
 		flex-direction: column;
-		height: 50%;
+		height: 55%;
 		max-width: 90%;
 		min-width: 30%;
 		max-height: 45%;
@@ -158,6 +158,7 @@
 		transform: scale(1);
 		transition-duration: 250ms;
 		border-radius: 5px;
+		overflow: hidden;
 		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 	}
 
@@ -205,7 +206,7 @@
 
 	.errorPopup .content {
 		display: flex;
-		height: 55%;
+		height: 60%;
 		width: 100%;
 		margin-left: 1.5em;
 		padding: 2em 0;
@@ -213,15 +214,13 @@
 
 	.errorPopup .content p {
 		color: #000000;
-		font-size: 25px;
+		font-size: 22.5px;
 		padding-right: 1.5em;
 		line-height: 35px;
 	}
 
 	.errorPopup .content p .wave {
-		position: absolute;
-		margin-left: 12.5px;
-		font-size: 32.5px;
+		font-size: 30px;
 		overflow: hidden;
 		animation-name: wave;
 		animation-duration: 2.5s;
@@ -251,7 +250,7 @@
 	}
 
 	.errorPopup .content p .github b {
-		margin-left: 30px;
+		margin-left: 12.5px;
 	}
 
 	.errorPopup .content p .github .arrow {
@@ -275,7 +274,6 @@
 	}
 
 	.errorPopup .content p .github .GitHubLogo {
-		position: absolute;
 		height: 22.5px;
 		width: 22.5px;
 		padding-top: 6.5px;
@@ -289,7 +287,7 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		height: 15%;
+		height: 11%;
 		width: 100%;
 		gap: 2em;
 	}
@@ -299,11 +297,12 @@
 		justify-content: center;
 		align-items: center;
 		height: 95%;
-		width: 17.5em;
+		width: 16em;
 		background-color: rgba(164, 169, 172, 0.421);
 		outline: 2px solid rgb(118, 118, 118);
 		border-radius: 5px;
 		gap: 0.5em;
+		overflow: hidden;
 		cursor: pointer;
 		transition-duration: 200ms;
 	}
