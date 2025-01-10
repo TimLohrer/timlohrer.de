@@ -19,19 +19,16 @@
 
 	// Birtday calculations
 	const currentDate = new Date();
-	const birthday = new Date(2006, 3, 20);
-	const age = currentDate.getFullYear() - birthday.getFullYear();
-
+	const birthday = new Date(2006, 2, 20);
+	let age = currentDate.getFullYear() - birthday.getFullYear();
+	
 	if (currentDate.getMonth() > birthday.getMonth() && currentDate.getDate() > birthday.getDate()) {
 		birthday.setFullYear(currentDate.getFullYear() + 1);
 	} else {
+		age -= 1; // Subtract one year if birthday has not yet passed
 		birthday.setFullYear(currentDate.getFullYear());
 	}
-
-	const daysUntilBirthday = Math.floor(
-		(birthday.getTime() - currentDate.getTime()) / (1000 * 60 * 60 * 24)
-	);
-
+	
 
 	function close() {
 		closed = true;
@@ -91,10 +88,7 @@
 			<p>
 				Hi <span class="wave">👋</span><br />I am <b title="Yup, thats me! 🙋‍♂️">Tim Lohrer</b>.<br
 				/>A
-				<span
-					title={daysUntilBirthday > 0
-						? `${daysUntilBirthday} days until my birthday 🥳`
-						: 'Today is my birthday! 🥳🥳🥳'}>{age}</span
+				<span>{age}</span
 				>
 				year old full stack software engineer from Germany.<br /><br />I have over 5 years of
 				experience with <b title={frontend.join(', ')}>frontend</b>,
@@ -171,7 +165,7 @@
 		flex-direction: row;
 		justify-content: space-between;
 		align-items: center;
-		height: 14%;
+		height: 9%;
 		width: 97%;
 		padding: 1% 1.5%;
 		overflow: hidden;
@@ -182,7 +176,7 @@
 
 	.errorPopup .header .title {
 		color: #ffffff;
-		font-size: 40px;
+		font-size: 30px;
 	}
 
 	.errorPopup .header .closeButton {
@@ -206,21 +200,21 @@
 
 	.errorPopup .content {
 		display: flex;
-		height: 60%;
+		height: 100%;
 		width: 100%;
 		margin-left: 1.5em;
-		padding: 2em 0;
+		padding: 1em 0;
 	}
 
 	.errorPopup .content p {
 		color: #000000;
-		font-size: 22.5px;
+		font-size: 20px;
 		padding-right: 1.5em;
 		line-height: 35px;
 	}
 
 	.errorPopup .content p .wave {
-		font-size: 30px;
+		font-size: 25px;
 		overflow: hidden;
 		animation-name: wave;
 		animation-duration: 2.5s;
@@ -287,7 +281,7 @@
 		flex-direction: row;
 		justify-content: space-around;
 		align-items: center;
-		height: 11%;
+		height: 10%;
 		width: 100%;
 		gap: 2em;
 	}
@@ -308,15 +302,15 @@
 	}
 
 	.errorPopup .buttons .button p {
-		font-size: 25px;
+		font-size: 22.5px;
 	}
 
 	.errorPopup .buttons .shareButton svg {
-		height: 32.5px;
+		height: 20px;
 	}
 
 	.errorPopup .buttons .viewSourceButton svg {
-		height: 60px;
+		height: 40px;
 	}
 
 	.errorPopup .buttons .button:hover {
