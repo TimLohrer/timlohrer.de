@@ -15,7 +15,7 @@
 	const desktop = ['Tauri', 'Rust', 'Flutter', 'Dart'];
 	const mobile = ['Flutter', 'Dart'];
 	const projectManagement = ['Jira', 'Confluence', 'GitHub', 'GitHub Projects', 'GitHub Actions'];
-	const servers = ['Linux', 'Bash', 'Nginx', 'Docker', 'Portainer', 'Kubernetes'];
+	const servers = ['Linux', 'Bash', 'Nginx', 'Docker', 'Portainer'];
 
 	// Birtday calculations
 	const currentDate = new Date();
