@@ -14,7 +14,7 @@
 </script>
 
 <svelte:head>
-	<title>Tim Lohrer | Home</title>
+	<title>Tim Lohrer | Portfolio</title>
 </svelte:head>
 
 <div class="home">
