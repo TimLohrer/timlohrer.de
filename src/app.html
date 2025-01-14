@@ -5,7 +5,7 @@
 	<meta charset="utf-8" />
 	<link rel="icon" href="%sveltekit.assets%/favicon.ico" />
 	<meta name="viewport" content="width=device-width, initial-scale=1" />
-	<title>Portfolio</title>
+	<title>Tim Lohrer</title>
 	%sveltekit.head%
 	</head>
 
@@ -14,15 +14,35 @@
 	</body>
 <style>
 	@font-face {
+		font-family: 'SF-Mono-Bold';
+		src: url('%sveltekit.assets%/fonts/SFMonoBold.otf');
+		font-style: bold;
+	}
+	@font-face {
 		font-family: 'SF-Mono';
-		src: url('%sveltekit.assets%/fonts/SF-Mono-Regular.otf');
+		src: url('%sveltekit.assets%/fonts/SFMonoRegular.otf');
+		font-style: normal;
 	}
 
 	* {
 		margin: 0;
 		padding: 0;
-		overflow-x: hidden;
+		overflow: hidden;
 		font-family: 'SF-Mono';
+	}
+
+	html, body {
+		height: 100%;
+		width: 100%;
+		background-color: var(--primary-bg);
+		color: var(--primary-text)
+	}
+
+	:root {
+		--primary-bg: rgb(3 3 3);
+		--secondary-bg: rgb(39 39 42);
+		--primary-text: rgb(250 250 250);
+		--secondary-text: rgb(161 161 170);
 	}
 </style>
 
