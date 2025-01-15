@@ -54,7 +54,7 @@
 	@media (max-width: 700px) {
 		.name {
 			margin-left: 1rem;
-			font-size: 2rem;
+			font-size: 1.5rem;
 		}
 	}
 </style>
