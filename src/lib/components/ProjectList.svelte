@@ -79,7 +79,7 @@
 		font-size: 11px;
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 900px) {
 		.projectList h2 {
 			text-align: center;
 		}
