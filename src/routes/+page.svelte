@@ -84,7 +84,7 @@
 		margin-top: 10vh;
 	}
 
-	@media (max-width: 1300px) {
+	@media (max-width: 500px) {
 		.header {
 			padding: 1.5rem;
 		}
