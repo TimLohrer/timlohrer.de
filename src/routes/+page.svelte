@@ -36,7 +36,7 @@
 				I have over {experienceYears}+ years of experience in various programming languages, tools
 				and tech-stacks.<br />
 				Projects I have worked on include ChatBots, WebApps, cross-platform mobile and desktop Apps,
-				REST API's and more.<br />
+				REST APIs and more.<br />
 				I am always eager to learn new things, take on bigger challenges, and improve my skills.<br
 				/>
 			</p>

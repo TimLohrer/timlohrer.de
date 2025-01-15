@@ -74,7 +74,7 @@
     },
     {
         "name": "ProjectHub",
-        "description": "A cross-platform project management desktop app with features similar to Jira and Trello. It supports realtime data sync over multipul independent instances without a server.<br><i>Archived school project from 12th grade.</i>",
+        "description": "A cross-platform project management desktop app with features similar to Jira and Trello. It supports realtime data sync over multiple independent instances without a server.<br><i>Archived school project from 12th grade.</i>",
         "logoLocation": "/projects/projecthub.png",
         "url": "https://github.com/TimLohrer/ProjectHubQT",
         "languages": [
@@ -101,7 +101,7 @@
     },
     {
         "name": "Framework",
-        "description": "A custom \"Web-Framework\" written in Go that makes it easy to write dynamic html templates, map them to stylesheets and scripts and render them either server-side or client-side.<br><i>This was just a fun challenge but I actually use it in some of my older projects.</i>",
+        "description": "A custom \"Web-Framework\" written in Go that makes it easy to write dynamic html templates, map them to stylesheets and scripts and render them either server-side or client-side.<br><i>This was just a fun challenge but I still use it in some of my older projects.</i>",
         "logoLocation": "/projects/framework.png",
         "url": "https://github.com/TimLohrer/framework",
         "languages": [
