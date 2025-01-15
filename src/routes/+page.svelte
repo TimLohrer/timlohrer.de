@@ -54,7 +54,6 @@
 		width: 100%;
 		padding: 2rem 10rem;
 		align-items: start;
-		overflow-y: scroll;
 		overflow-x: hidden;
 	}
 

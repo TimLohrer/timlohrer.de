@@ -55,11 +55,11 @@
 
     .projectList .projects {
 		display: grid;
-        max-width: 100%;
+        max-width: 100vw;
         height: auto;
 		margin-top: 1.5rem;
         gap: 1rem;
-        grid-template-columns: repeat(auto-fill, minmax(500px, 1rem));
+        grid-template-columns: repeat(auto-fill, minmax(450px, 600px));
 	}
 
     /* This is for the horizontal scroll variant. Might use this in the future and it was a pita to get working :) */

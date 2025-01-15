@@ -15,7 +15,7 @@
     },
     {
         "name": "NoRiskClient",
-        "description": "NoRiskClient is a custom Minecraft Client with about 8k users in our closed beta. It provides an extensive set of features e.g. the possibility to host singleplayer worlds and play minigames like tetris against other players.",
+        "description": "NoRiskClient is a custom Minecraft Client with about 8k users in our closed beta. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly and play minigames like tetris against other players.",
         "logoLocation": "/projects/noriskclient.svg",
         "url": "https://norisk.gg",
         "languages": [

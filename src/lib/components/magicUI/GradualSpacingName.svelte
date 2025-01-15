@@ -51,7 +51,7 @@
 		-webkit-text-fill-color: transparent;
 	}
 
-	@media (max-width: 700px) {
+	@media (max-width: 800px) {
 		.name {
 			margin-left: 1rem;
 			font-size: 1.75rem;
