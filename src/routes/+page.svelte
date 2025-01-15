@@ -94,7 +94,7 @@
 		}
 
 		.header h1 {
-			font-size: 1.5rem;
+			font-size: 1.75rem;
 		}
 
 		.header .info p:nth-child(1) {
