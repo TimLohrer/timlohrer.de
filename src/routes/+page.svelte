@@ -84,7 +84,7 @@
 		margin-top: 10vh;
 	}
 
-	@media (max-width: 320px) {
+	@media (max-width: 800px) {
 		.header {
 			padding: 1.5rem;
 		}
@@ -94,7 +94,7 @@
 		}
 
 		.header h1 {
-			font-size: 2rem;
+			font-size: 1.5rem;
 		}
 
 		.header .info p:nth-child(1) {
