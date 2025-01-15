@@ -6,6 +6,7 @@
 	export let gradientSize: number = 200;
 	export let gradientColor: string = '#262626';
 	export let gradientOpacity: number = 0.8;
+	export let onClick: () => void;
 	let className: string = '';
 	export { className as class };
 
@@ -34,9 +35,11 @@
 
 <!-- svelte-ignore a11y-no-static-element-interactions -->
 <!-- I have added py-4 in below code, you can customize the component as per needs -->
+<!-- svelte-ignore a11y-click-events-have-key-events -->
 <div
 	on:mousemove={handleMouseMove}
 	on:mouseleave={handleMouseLeave}
+	on:click={onClick}
 	class={cn(
 		'main-card group relative flex size-full overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-900 border text-black dark:text-white',
 		className

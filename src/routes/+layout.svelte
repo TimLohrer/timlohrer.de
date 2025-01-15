@@ -9,17 +9,11 @@
     </footer>
 </div>
 
-
-
-
 <style>
     .main {
         display: flex;
         flex-direction: column;
-        justify-content: space-between;
-        height: 100%;
         width: 100%;
-        overflow-y: auto;
     }
 
     footer {

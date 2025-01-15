@@ -1,0 +1,20 @@
+[
+    {
+        "name": "GalaxyBot",
+        "description": "GalaxyBot is a Discord Bot with over 1.7M users centered around support systems, moderation & advanced team management.",
+        "logoLocation": "/projects/galaxybot.png",
+        "url": "https://galaxybot.app",
+        "buttons": [],
+        "brandColor": "#5866f2",
+        "gradientColor": "#333a80"
+    },
+    {
+        "name": "NoRiskClient",
+        "description": "NoRiskClient is a custom Minecraft Client with about 8k users in our closed beta. It provides a extensive set of features e.g. the possibility to host singleplayer worlds, add custom mods and play minigames like tetris against other players.",
+        "logoLocation": "/projects/noriskclient.svg",
+        "url": "https://norisk.gg",
+        "buttons": [],
+        "brandColor": "#0f6f9e",
+        "gradientColor": "#0f6f9e"
+    }
+]
