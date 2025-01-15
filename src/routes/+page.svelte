@@ -17,36 +17,34 @@
 </svelte:head>
 
 <div class="home">
-	<section id="header" class="header">
-		<div class="title">
-			<BlurFade delay={0.35} yOffset={12}>
-				<h1>Hello 👋</h1>
-			</BlurFade>
-			<BlurFade delay={0.5} yOffset={12}>
-				<div class="i-am-container">
-					<h1>I am</h1>
-					<GradualSpacingName words="Tim Lohrer" duration={1.25} />
-					<h1>.</h1>
-				</div>
-			</BlurFade>
-		</div>
-		<div class="info">
-			<BlurFade delay={0.95} yOffset={8}>
-				<p>
-					A {age} year old full stack developer from Germany.<br />
-					I hove over {experienceYears}+ years of experience in various programming languages, tools
-					and tech-stacks.<br />
-					Projects I have worked on include ChatBots, WebApps, cross-platform mobile and desktop Apps,
-					REST API's and more.<br />
-					I am always eager to learn new things, take on bigger challenges, and improve my skills.<br
-					/>
-				</p>
-			</BlurFade>
-			<BlurFade delay={1.3} yOffset={8}>
-				<ProjectList />
-			</BlurFade>
-		</div>
-	</section>
+	<div class="title">
+		<BlurFade delay={0.35} yOffset={12}>
+			<h1>Hello 👋</h1>
+		</BlurFade>
+		<BlurFade delay={0.5} yOffset={12}>
+			<div class="i-am-container">
+				<h1>I am</h1>
+				<GradualSpacingName words="Tim Lohrer" duration={1.25} />
+				<h1>.</h1>
+			</div>
+		</BlurFade>
+	</div>
+	<div class="info">
+		<BlurFade delay={0.95} yOffset={8}>
+			<p>
+				A {age} year old full stack developer from Germany.<br />
+				I have over {experienceYears}+ years of experience in various programming languages, tools
+				and tech-stacks.<br />
+				Projects I have worked on include ChatBots, WebApps, cross-platform mobile and desktop Apps,
+				REST API's and more.<br />
+				I am always eager to learn new things, take on bigger challenges, and improve my skills.<br
+				/>
+			</p>
+		</BlurFade>
+		<BlurFade delay={1.3} yOffset={8}>
+			<ProjectList />
+		</BlurFade>
+	</div>
 </div>
 
 <style>
@@ -54,54 +52,50 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
-		overflow-y: scroll;
-	}
-
-	.header {
-		display: flex;
-		flex-direction: column;
 		padding: 2rem 10rem;
 		align-items: start;
+		overflow-y: scroll;
+		overflow-x: hidden;
 	}
 
-	.header .title {
+	.home .title {
 		margin-top: 10vh;
 	}
 
-	.header h1 {
+	.home h1 {
 		display: flex;
 		flex-direction: row;
 		font-family: 'SF-Mono-Bold';
 		font-size: 5rem;
 	}
 
-	.header .i-am-container {
+	.home .i-am-container {
 		display: flex;
 		flex-direction: row;
 	}
 
-	.header .info {
+	.home .info {
 		margin-top: 10vh;
 	}
 
 	@media (max-width: 800px) {
-		.header {
+		.home {
 			padding: 1.5rem;
 		}
 
-		.header .title {
+		.home .title {
 			margin-top: 5vh;
 		}
 
-		.header h1 {
+		.home h1 {
 			font-size: 1.75rem;
 		}
 
-		.header .info {
+		.home .info {
 			width: 100%;
 		}
 
-		.header .info p:nth-child(1) {
+		.home .info p:nth-child(1) {
 			text-align: center;
 		}
 	}

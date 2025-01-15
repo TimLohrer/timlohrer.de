@@ -41,7 +41,7 @@
 	on:mouseleave={handleMouseLeave}
 	on:click={onClick}
 	class={cn(
-		'main-card group relative flex size-full overflow-hidden rounded-xl bg-neutral-100 dark:bg-neutral-900 border text-black dark:text-white',
+		'main-card group flex size-full rounded-xl bg-neutral-100 dark:bg-neutral-900 border text-black dark:text-white',
 		className
 	)}
 >
@@ -69,8 +69,8 @@
 
 <style>
 	.size-full {
-		width: 425px;
-		height: 200px;
+		min-width: 500px;
+		min-height: 200px;
 	}
 
 	.main-card {
@@ -83,8 +83,8 @@
 
 	@media (max-width: 800px) {
 		.size-full {
-			width: 100%;
-			height: 200px;
+			min-width: 430px;
+			transform: scale(-0.75) rotate(180deg);
 		}
 	}
 </style>
