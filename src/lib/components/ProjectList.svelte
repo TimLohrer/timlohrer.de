@@ -80,6 +80,11 @@
 	}
 
 	@media (max-width: 800px) {
+        .projectList {
+            align-items: center;
+            width: 100%;
+        }
+
 		.projectList h2 {
 			text-align: center;
 		}

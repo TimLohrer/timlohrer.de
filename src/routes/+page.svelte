@@ -97,6 +97,10 @@
 			font-size: 1.75rem;
 		}
 
+		.header .info {
+			width: 100%;
+		}
+
 		.header .info p:nth-child(1) {
 			text-align: center;
 		}

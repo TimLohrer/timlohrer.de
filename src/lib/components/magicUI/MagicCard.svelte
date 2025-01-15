@@ -80,4 +80,11 @@
 	.main-card:hover {
 		transform: rotate3d(0, 2, 0, 10deg);
 	}
+
+	@media (max-width: 800px) {
+		.size-full {
+			width: 100%;
+			height: 200px;
+		}
+	}
 </style>
