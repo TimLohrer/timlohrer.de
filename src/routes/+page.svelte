@@ -32,14 +32,21 @@
 	<div class="info">
 		<BlurFade delay={0.95} yOffset={8}>
 			<p>
-				A {age} year old full stack developer from Germany.<br />
+				A {age} year old full stack developer from Germany.<br>
 				I have over {experienceYears}+ years of experience in various programming languages, tools
 				and tech-stacks.<br />
 				Projects I have worked on include ChatBots, WebApps, cross-platform mobile and desktop Apps,
 				REST APIs and more.<br />
-				I am always eager to learn new things, take on bigger challenges, and improve my skills.<br
-				/>
+				I am always eager to learn new things, take on bigger challenges, and improve my skills.<br>
 			</p>
+		</BlurFade>
+		<!-- svelte-ignore a11y-no-noninteractive-element-interactions -->
+		<BlurFade delay={1.5} yOffset={8}>
+			<div class="github-container">
+				<img src="/icons/arrow_bottom_right.svg" alt="">
+				<!-- svelte-ignore a11y-click-events-have-key-events -->
+				<p class="github" on:click={() => window.open('https://github.com/TimLohrer', '_blanc')}>Check me out on GitHub!</p>
+			</div>
 		</BlurFade>
 		<BlurFade delay={1.3} yOffset={8}>
 			<ProjectList />
@@ -77,6 +84,28 @@
 		margin-top: 10vh;
 	}
 
+	.home .github-container {
+		display: flex;
+		flex-direction: row;
+		align-items: start;
+		gap: 0.5rem;
+		margin-left: 5px;
+		margin-top: 1rem;
+	}
+
+	.home .github-container img {
+		width: 1.5rem;
+		height: 1.5rem;
+		opacity: 0.6;
+	}
+
+	.home .github {
+		cursor: pointer;
+		color: #ee10fa;
+		opacity: 0.9;
+		font-size: 18px;
+	}
+
 	@media (max-width: 800px) {
 		.home {
 			padding: 1.5rem;
@@ -92,10 +121,6 @@
 
 		.home .info {
 			width: 100%;
-		}
-
-		.home .info p:nth-child(1) {
-			text-align: center;
 		}
 	}
 </style>
