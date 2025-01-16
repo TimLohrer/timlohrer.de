@@ -41,7 +41,7 @@
 	on:mouseleave={handleMouseLeave}
 	on:click={onClick}
 	class={cn(
-		'main-card group flex size-full rounded-xl bg-neutral-100 dark:bg-neutral-900 border text-black dark:text-white',
+		'main-card group flex size-full rounded-xl bg-neutral-900 border text-white',
 		className
 	)}
 >
