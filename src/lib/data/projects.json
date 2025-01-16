@@ -1,0 +1,113 @@
+[
+    {
+        "name": "GalaxyBot",
+        "description": "GalaxyBot is a Discord Bot with over 1.7M users centered around support systems, moderation & advanced team management.",
+        "logoLocation": "/projects/galaxybot.png",
+        "url": "https://galaxybot.app",
+        "languages": [
+            "JavaScript",
+            "TypeScript",
+            "Vue",
+            "Python"
+        ],
+        "brandColor": "#5866f2",
+        "gradientColor": "#333a80"
+    },
+    {
+        "name": "NoRiskClient",
+        "description": "NoRiskClient is a custom Minecraft Client with about 8k users in our closed beta. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly and play minigames like tetris against other players.",
+        "logoLocation": "/projects/noriskclient.svg",
+        "url": "https://norisk.gg",
+        "languages": [
+            "Java",
+            "Kotlin",
+            "Rust",
+            "Go",
+            "Dart",
+            "Svelte",
+            "TypeScript"
+        ],
+        "brandColor": "#0f6f9e",
+        "gradientColor": "#0f6f9e"
+    },
+    {
+        "name": "Rustcord",
+        "description": "A cross-platform Discord Desktop App written from scratch in Rust. <i>Work in Progress</i>",
+        "logoLocation": "/projects/rustcord.png",
+        "url": "https://github.com/TimLohrer/rustcord",
+        "languages": [
+            "Rust",
+            "HTML",
+            "CSS"
+        ],
+        "brandColor": "#f59631",
+        "gradientColor": "#bf7b32"
+    },
+    {
+        "name": "OAuth System",
+        "description": "A custom OAuth system that supports custom roles, scopes, permissions and 2FA for my own personal projects.",
+        "logoLocation": "/projects/oauth.png",
+        "url": "https://login.timlohrer.de",
+        "languages": [
+            "JavaScript",
+            "Go",
+            "Kotlin",
+            "HTML",
+            "CSS"
+        ],
+        "brandColor": "#77e031",
+        "gradientColor": "#508a29"
+    },
+    {
+        "name": "SmartHome",
+        "description": "A custom SmartHome backend and frontend that supports Ikea Tradfri and Shelly devices and syncs device states to every open App in real-time.",
+        "logoLocation": "/projects/smarthome.png",
+        "url": "https://smarthome.timlohrer.de",
+        "languages": [
+            "JavaScript",
+            "Go",
+            "HTML",
+            "CSS"
+        ],
+        "brandColor": "#ffe70d",
+        "gradientColor": "#b0a11c"
+    },
+    {
+        "name": "ProjectHub",
+        "description": "A cross-platform project management desktop app with features similar to Jira and Trello. It supports realtime data sync over multiple independent instances without a server.<br><i>Archived school project from 12th grade.</i>",
+        "logoLocation": "/projects/projecthub.png",
+        "url": "https://github.com/TimLohrer/ProjectHubQT",
+        "languages": [
+            "Python",
+            "HTML",
+            "CSS"
+        ],
+        "brandColor": "#ff176b",
+        "gradientColor": "#8f1e47"
+    },
+    {
+        "name": "RCON-Web",
+        "description": "A WebApp that allows you to manage your Minecraft Server via RCON. It supports multiple servers and provides basic but useful features like player management and console access.",
+        "logoLocation": "/projects/rcon.png",
+        "url": "https://github.com/TimLohrer/rcon-web",
+        "languages": [
+            "Go",
+            "JavaScript",
+            "HTML",
+            "CSS"
+        ],
+        "brandColor": "#248501",
+        "gradientColor": "#248501"
+    },
+    {
+        "name": "Framework",
+        "description": "A custom \"Web-Framework\" written in Go that makes it easy to write dynamic html templates, map them to stylesheets and scripts and render them either server-side or client-side.<br><i>This was just a fun challenge but I still use it in some of my older projects.</i>",
+        "logoLocation": "/projects/framework.png",
+        "url": "https://github.com/TimLohrer/framework",
+        "languages": [
+            "Go"
+        ],
+        "brandColor": "#e0142f",
+        "gradientColor": "#871423"
+    }
+]
