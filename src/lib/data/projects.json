@@ -31,6 +31,18 @@
         "gradientColor": "#0f6f9e"
     },
     {
+        "name": "McReal.",
+        "description": "McReal. is a social media app like BeReal. but for Minecraft. It allows you to share your builds and and current activities once per day, check out other players pinned posts and comment under their posts.<br><br><i>McReal. is part of NoRiskClient and therefore still in closed beta.</i>",
+        "logoLocation": "/projects/noriskclient.svg",
+        "url": "https://norisk.gg",
+        "languages": [
+            "Kotlin",
+            "Dart"
+        ],
+        "brandColor": "#0f6f9e",
+        "gradientColor": "#0f6f9e"
+    },
+    {
         "name": "Rustcord",
         "description": "A cross-platform Discord Desktop App written from scratch in Rust. <i>Work in Progress</i>",
         "logoLocation": "/projects/rustcord.png",
