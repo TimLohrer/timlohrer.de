@@ -78,7 +78,7 @@
 	}
 
 	.main-card:hover {
-		transform: rotate3d(0, 2, 0, 10deg);
+		transform: rotate3d(0, 5, 0, 10deg);
 	}
 
 	@media (max-width: 800px) {
