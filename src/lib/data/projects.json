@@ -1,7 +1,7 @@
 [
     {
         "name": "GalaxyBot",
-        "description": "GalaxyBot is a Discord Bot with over 1.7M users centered around support systems, moderation & advanced team management.",
+        "description": "GalaxyBot is a Discord Bot with over 1.9M users centered around support systems, moderation & advanced team management.",
         "logoLocation": "/projects/galaxybot.png",
         "url": "https://galaxybot.app",
         "languages": [
@@ -15,7 +15,7 @@
     },
     {
         "name": "NoRiskClient",
-        "description": "NoRiskClient is a custom Minecraft Client with about 8k users in our closed beta. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly and play minigames like tetris against other players.",
+        "description": "NoRiskClient is a custom Minecraft Client with about 8.5k users in our closed beta. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
         "logoLocation": "/projects/noriskclient.svg",
         "url": "https://norisk.gg",
         "languages": [
@@ -45,12 +45,13 @@
     },
     {
         "name": "OAuth System",
-        "description": "A custom OAuth system that supports custom roles, scopes, permissions and 2FA for my own personal projects.",
+        "description": "A custom OAuth system that supports custom roles, scopes, permissions and 2FA for my own personal projects.<br>This is currently being reworked in rust and react native.",
         "logoLocation": "/projects/oauth.png",
         "url": "https://login.timlohrer.de",
         "languages": [
             "JavaScript",
             "Go",
+            "Rust",
             "Kotlin",
             "HTML",
             "CSS"
@@ -87,7 +88,7 @@
     },
     {
         "name": "RCON-Web",
-        "description": "A WebApp that allows you to manage your Minecraft Server via RCON. It supports multiple servers and provides basic but useful features like player management and console access.",
+        "description": "A WebApp that allows you to manage your Minecraft Server via the RCON protocol. It supports multiple servers and provides basic but useful features like player management and console access.",
         "logoLocation": "/projects/rcon.png",
         "url": "https://github.com/TimLohrer/rcon-web",
         "languages": [
