@@ -45,7 +45,7 @@
     },
     {
         "name": "OAuth System",
-        "description": "A custom OAuth system that supports custom roles, scopes, permissions and 2FA for my own personal projects.<br>This is currently being reworked in rust and react native.",
+        "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br>This is currently being reworked in rust and react native.",
         "logoLocation": "/projects/oauth.png",
         "url": "https://login.timlohrer.de",
         "languages": [
