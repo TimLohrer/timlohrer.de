@@ -43,6 +43,19 @@
         "gradientColor": "#0f6f9e"
     },
     {
+        "name": "auth-rs",
+        "description": "auth-rs is a custom from scratch OAuth implementation written in Rust. It supports custom roles, scopes, external Apps (OAuth standart compatible), permissions and 2FA.",
+        "logoLocation": "/projects/oauth.png",
+        "url": "https://github.com/TimLohrer/auth-rs",
+        "languages": [
+            "Rust",
+            "Svelte",
+            "TypeScript"
+        ],
+        "brandColor": "#9655A3",
+        "gradientColor": "#9655A3"
+    },
+    {
         "name": "Rustcord",
         "description": "A cross-platform Discord Desktop App written from scratch in Rust. <i>Work in Progress</i>",
         "logoLocation": "/projects/rustcord.png",
@@ -54,22 +67,6 @@
         ],
         "brandColor": "#f59631",
         "gradientColor": "#bf7b32"
-    },
-    {
-        "name": "OAuth System",
-        "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br>This is currently being reworked in rust and react native.",
-        "logoLocation": "/projects/oauth.png",
-        "url": "https://login.timlohrer.de",
-        "languages": [
-            "JavaScript",
-            "Go",
-            "Rust",
-            "Kotlin",
-            "HTML",
-            "CSS"
-        ],
-        "brandColor": "#77e031",
-        "gradientColor": "#508a29"
     },
     {
         "name": "SmartHome",
@@ -111,6 +108,22 @@
         ],
         "brandColor": "#248501",
         "gradientColor": "#248501"
+    },
+    {
+        "name": "OAuth System",
+        "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br><br><i>This is archived and will soon be replaced by auth-rs.</i>",
+        "logoLocation": "/projects/oauth.png",
+        "url": "https://login.timlohrer.de",
+        "languages": [
+            "JavaScript",
+            "Go",
+            "Rust",
+            "Kotlin",
+            "HTML",
+            "CSS"
+        ],
+        "brandColor": "#77e031",
+        "gradientColor": "#508a29"
     },
     {
         "name": "Framework",
