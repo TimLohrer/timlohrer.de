@@ -46,9 +46,6 @@
         "gradientColor": "#0f6f9e"
     },
     {
-<<<<<<< HEAD
-        "slug": "rustcord",
-=======
         "name": "auth-rs",
         "description": "auth-rs is a custom from scratch OAuth implementation written in Rust. It supports custom roles, scopes, external Apps (OAuth standart compatible), permissions and 2FA.",
         "logoLocation": "/projects/oauth.png",
@@ -62,7 +59,6 @@
         "gradientColor": "#9655A3"
     },
     {
->>>>>>> b7b64d2d5a9d4cb8e912de8ebc792fbbfa8eebee
         "name": "Rustcord",
         "description": "A cross-platform Discord Desktop App written from scratch in Rust. <i>Work in Progress</i>",
         "logoLocation": "/projects/rustcord.png",
