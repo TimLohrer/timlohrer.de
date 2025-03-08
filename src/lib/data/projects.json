@@ -17,7 +17,7 @@
     {
         "slug": "noriskclient",
         "name": "NoRiskClient",
-        "description": "NoRiskClient is a custom Minecraft Client with about 8.5k users in our closed beta. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
+        "description": "NoRiskClient is a custom Minecraft Client with about 9k users in our closed beta. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
         "logoLocation": "/projects/noriskclient.svg",
         "url": "https://norisk.gg",
         "languages": [
@@ -46,7 +46,23 @@
         "gradientColor": "#0f6f9e"
     },
     {
+<<<<<<< HEAD
         "slug": "rustcord",
+=======
+        "name": "auth-rs",
+        "description": "auth-rs is a custom from scratch OAuth implementation written in Rust. It supports custom roles, scopes, external Apps (OAuth standart compatible), permissions and 2FA.",
+        "logoLocation": "/projects/oauth.png",
+        "url": "https://github.com/TimLohrer/auth-rs",
+        "languages": [
+            "Rust",
+            "Svelte",
+            "TypeScript"
+        ],
+        "brandColor": "#9655A3",
+        "gradientColor": "#9655A3"
+    },
+    {
+>>>>>>> b7b64d2d5a9d4cb8e912de8ebc792fbbfa8eebee
         "name": "Rustcord",
         "description": "A cross-platform Discord Desktop App written from scratch in Rust. <i>Work in Progress</i>",
         "logoLocation": "/projects/rustcord.png",
@@ -60,6 +76,7 @@
         "gradientColor": "#bf7b32"
     },
     {
+<<<<<<< HEAD
         "slug": "oauth",
         "name": "OAuth System",
         "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br>This is currently being reworked in rust and react native.",
@@ -78,6 +95,8 @@
     },
     {
         "slug": "smarthome",
+=======
+>>>>>>> b7b64d2d5a9d4cb8e912de8ebc792fbbfa8eebee
         "name": "SmartHome",
         "description": "A custom SmartHome backend and frontend that supports Ikea Tradfri and Shelly devices and syncs device states to every open App in real-time.",
         "logoLocation": "/projects/smarthome.png",
@@ -121,7 +140,26 @@
         "gradientColor": "#248501"
     },
     {
+<<<<<<< HEAD
         "slug": "framework",
+=======
+        "name": "OAuth System",
+        "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br><br><i>This is archived and will soon be replaced by auth-rs.</i>",
+        "logoLocation": "/projects/oauth.png",
+        "url": "https://login.timlohrer.de",
+        "languages": [
+            "JavaScript",
+            "Go",
+            "Rust",
+            "Kotlin",
+            "HTML",
+            "CSS"
+        ],
+        "brandColor": "#77e031",
+        "gradientColor": "#508a29"
+    },
+    {
+>>>>>>> b7b64d2d5a9d4cb8e912de8ebc792fbbfa8eebee
         "name": "Framework",
         "description": "A custom \"Web-Framework\" written in Go that makes it easy to write dynamic html templates, map them to stylesheets and scripts and render them either server-side or client-side.<br><i>This was just a fun challenge but I still use it in some of my older projects.</i>",
         "logoLocation": "/projects/framework.png",
