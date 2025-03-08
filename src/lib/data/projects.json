@@ -72,27 +72,6 @@
         "gradientColor": "#bf7b32"
     },
     {
-<<<<<<< HEAD
-        "slug": "oauth",
-        "name": "OAuth System",
-        "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br>This is currently being reworked in rust and react native.",
-        "logoLocation": "/projects/oauth.png",
-        "url": "https://login.timlohrer.de",
-        "languages": [
-            "JavaScript",
-            "Go",
-            "Rust",
-            "Kotlin",
-            "HTML",
-            "CSS"
-        ],
-        "brandColor": "#77e031",
-        "gradientColor": "#508a29"
-    },
-    {
-        "slug": "smarthome",
-=======
->>>>>>> b7b64d2d5a9d4cb8e912de8ebc792fbbfa8eebee
         "name": "SmartHome",
         "description": "A custom SmartHome backend and frontend that supports Ikea Tradfri and Shelly devices and syncs device states to every open App in real-time.",
         "logoLocation": "/projects/smarthome.png",
@@ -136,9 +115,6 @@
         "gradientColor": "#248501"
     },
     {
-<<<<<<< HEAD
-        "slug": "framework",
-=======
         "name": "OAuth System",
         "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br><br><i>This is archived and will soon be replaced by auth-rs.</i>",
         "logoLocation": "/projects/oauth.png",
@@ -155,7 +131,6 @@
         "gradientColor": "#508a29"
     },
     {
->>>>>>> b7b64d2d5a9d4cb8e912de8ebc792fbbfa8eebee
         "name": "Framework",
         "description": "A custom \"Web-Framework\" written in Go that makes it easy to write dynamic html templates, map them to stylesheets and scripts and render them either server-side or client-side.<br><i>This was just a fun challenge but I still use it in some of my older projects.</i>",
         "logoLocation": "/projects/framework.png",
