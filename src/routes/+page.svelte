@@ -5,7 +5,7 @@
 
 	// not sure if there is a better way but this works :)
 	let age = new Date().getFullYear() - 2006;
-	if (new Date().getMonth() < 3 || (new Date().getMonth() === 3 && new Date().getDate() < 20)) {
+	if (new Date().getMonth() < 2 || (new Date().getMonth() === 2 && new Date().getDate() < 20)) {
 		age -= 1;
 	}
 
