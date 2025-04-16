@@ -47,7 +47,7 @@
     },
     {
         "name": "auth-rs",
-        "description": "auth-rs is a custom from scratch OAuth implementation written in Rust. It supports custom roles, scopes, external Apps (OAuth standart compatible), permissions and 2FA.",
+        "description": "auth-rs is a custom from scratch OAuth implementation written in Rust. It supports custom roles, scopes, external Apps (OAuth standart compatible), permissions, 2FA and webauthen passkeys.",
         "logoLocation": "/projects/oauth.png",
         "url": "https://github.com/TimLohrer/auth-rs",
         "languages": [
