@@ -60,7 +60,7 @@
     },
     {
         "name": "Rustcord",
-        "description": "A cross-platform Discord Desktop App written from scratch in Rust. <i>Work in Progress</i>",
+        "description": "A cross-platform Discord Desktop App written from scratch in Rust and Svelte using Tauri. <i>Work in Progress</i>",
         "logoLocation": "/projects/rustcord.png",
         "url": "https://github.com/TimLohrer/rustcord",
         "languages": [
