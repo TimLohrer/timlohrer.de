@@ -65,6 +65,7 @@
         "url": "https://github.com/TimLohrer/rustcord",
         "languages": [
             "Rust",
+            "Svelte",
             "HTML",
             "CSS"
         ],
