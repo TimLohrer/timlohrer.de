@@ -66,8 +66,7 @@
         "languages": [
             "Rust",
             "Svelte",
-            "HTML",
-            "CSS"
+            "TypeScript"
         ],
         "brandColor": "#f59631",
         "gradientColor": "#bf7b32"
