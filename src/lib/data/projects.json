@@ -1,23 +1,8 @@
 [
     {
-        "slug": "galaxybot",
-        "name": "GalaxyBot",
-        "description": "GalaxyBot is a Discord Bot with over 2M users centered around support systems, moderation & advanced team management.",
-        "logoLocation": "/projects/galaxybot.png",
-        "url": "https://galaxybot.app",
-        "languages": [
-            "JavaScript",
-            "TypeScript",
-            "Vue",
-            "Python"
-        ],
-        "brandColor": "#5866f2",
-        "gradientColor": "#333a80"
-    },
-    {
         "slug": "noriskclient",
         "name": "NoRiskClient",
-        "description": "NoRiskClient is a custom Minecraft Client with about 9k users in our closed beta. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
+        "description": "NoRiskClient is a custom Minecraft Client with over 600 daily active users. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
         "logoLocation": "/projects/noriskclient.svg",
         "url": "https://norisk.gg",
         "languages": [
@@ -33,17 +18,19 @@
         "gradientColor": "#0f6f9e"
     },
     {
-        "slug": "mcreal.",
-        "name": "McReal.",
-        "description": "McReal. is a social media app like BeReal. but for Minecraft. It allows you to share your builds and and current activities once per day, check out other players pinned posts and comment under their posts.<br><br><i>McReal. is part of NoRiskClient and therefore still in closed beta.</i>",
-        "logoLocation": "/projects/noriskclient.svg",
-        "url": "https://norisk.gg",
+        "slug": "galaxybot",
+        "name": "GalaxyBot",
+        "description": "GalaxyBot is a Discord Bot with over 3M users centered around support systems, moderation & advanced team management.",
+        "logoLocation": "/projects/galaxybot.png",
+        "url": "https://galaxybot.app",
         "languages": [
-            "Kotlin",
-            "Dart"
+            "JavaScript",
+            "TypeScript",
+            "Vue",
+            "Python"
         ],
-        "brandColor": "#0f6f9e",
-        "gradientColor": "#0f6f9e"
+        "brandColor": "#5866f2",
+        "gradientColor": "#333a80"
     },
     {
         "name": "auth-rs",
