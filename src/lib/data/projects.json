@@ -1,13 +1,13 @@
 [
     {
         "slug": "noriskclient",
-        "name": "NoRiskClient",
+        "name": "NoriskClient",
         "description": "NoRiskClient is a custom Minecraft Client with over 600 daily active users. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
         "logoLocation": "/projects/noriskclient.svg",
         "url": "https://norisk.gg",
         "languages": [
-            "Java",
             "Kotlin",
+            "Java",
             "Rust",
             "Go",
             "Dart",
@@ -24,8 +24,8 @@
         "logoLocation": "/projects/galaxybot.png",
         "url": "https://galaxybot.app",
         "languages": [
-            "JavaScript",
             "TypeScript",
+            "JavaScript",
             "Vue",
             "Python"
         ],
@@ -103,9 +103,9 @@
     },
     {
         "name": "OAuth System",
-        "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br><br><i>This is archived and will soon be replaced by auth-rs.</i>",
+        "description": "A custom OAuth system that supports custom roles, scopes, external Apps, permissions and 2FA for my own personal projects.<br><br><i>This is archived and will now replaced by auth-rs.</i>",
         "logoLocation": "/projects/oauth.png",
-        "url": "https://login.timlohrer.de",
+        "url": null,
         "languages": [
             "JavaScript",
             "Go",
