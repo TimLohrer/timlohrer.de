@@ -3,7 +3,7 @@
 		"slug": "noriskclient",
 		"name": "NoriskClient",
 		"description": "NoRiskClient is a custom Minecraft Client with over 800 daily active users. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
-		"logoLocation": "/projects/noriskclient.svg",
+		"logoLocation": "/projects/noriskclient.png",
 		"url": "https://norisk.gg",
 		"languages": ["Kotlin", "Java", "Rust", "Go", "Dart", "Svelte", "TypeScript"],
 		"brandColor": "#0f6f9e",
