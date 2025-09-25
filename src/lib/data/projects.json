@@ -1,8 +1,8 @@
 [
 	{
 		"slug": "noriskclient",
-		"name": "NoriskClient",
-		"description": "NoRiskClient is a custom Minecraft Client with over 1k daily active users. It provides an extensive set of features e.g. the possibility to securely host singleplayer worlds publicly via a custom proxy and play minigames like tetris against other players.",
+		"name": "NoRisk Client",
+		"description": "NoRisk Client is a custom Minecraft Client with over 2k daily active users. It provides an extensive set of features e.g. securely hosting singleplayer worlds publicly via a custom proxy, play minigames like tetris against other players and useful in-game HUD overlays.",
 		"logoLocation": "/projects/noriskclient.png",
 		"url": "https://norisk.gg",
 		"languages": ["Kotlin", "Java", "Rust", "Go", "Dart", "Svelte", "TypeScript"],
@@ -41,7 +41,7 @@
 		"name": "Spotify Overlay",
 		"description": "A Minecraft mod that provides a in-game overlay of your current playing Song. It supports any App that can play music on your PC, since it gets the information from the Local Media Listener library.",
 		"logoLocation": "/projects/spotify-overlay.png",
-		"url": "https://github.com/TimLohrer/spotify-overlay",
+		"url": "https://modrinth.com/mod/spotify-overlay",
 		"languages": ["Kotlin"],
 		"brandColor": "#39991C",
 		"gradientColor": "#38AB15"
