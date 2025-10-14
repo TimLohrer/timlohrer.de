@@ -21,12 +21,12 @@
 	},
 	{
 		"name": "auth-rs",
-		"description": "auth-rs is a custom from scratch OAuth implementation written in Rust. It supports custom roles, scopes, external Apps (OAuth standart compatible), permissions, 2FA and webauthen passkeys.",
+		"description": "auth-rs is a custom from scratch OIDC compatible identity provider written in Rust. It supports custom roles, scopes, external Apps (OIDC), 2FA, webauthen passkeys and generic user based json data storage for OAuth Applications.",
 		"logoLocation": "/projects/oauth.png",
 		"url": "https://github.com/TimLohrer/auth-rs",
 		"languages": ["Rust", "Svelte", "TypeScript"],
-		"brandColor": "#9655A3",
-		"gradientColor": "#9655A3"
+		"brandColor": "#b838d1",
+		"gradientColor": "#b838d1"
 	},
 	{
 		"name": "Local Media Listener",
