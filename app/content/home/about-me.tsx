@@ -2,16 +2,16 @@
 
 import { BlurFade } from "@/components/ui/blur-fade";
 import { TextAnimate } from "@/components/ui/text-animate";
-import { aboutMe, socialButtons, marquees } from "@/app/content/home/home.json"
+import { aboutMe, socialButtons } from "@/app/content/home/home.json"
 import Button from "@/components/button";
 import { SocialIcon } from "react-social-icons";
 import FloatingScrollButton from "@/components/floating-scroll-button";
-import React, { FunctionComponentElement, useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Bug, ExternalLink, GitCommit, GitPullRequest } from "lucide-react";
 import { NumberTicker } from "@/components/ui/number-ticker";
 
 export default function AboutMe() {
-  onload = () => {
+  useEffect(() => {
     setTimeout(() => {
       const hello = document.querySelector(".hello");
       if (!hello) return;
@@ -20,7 +20,7 @@ export default function AboutMe() {
         hello.innerHTML = "Hello 👋";
       }, 2000);
     }, 750);
-  }
+  }, []);
 
   function getAge(): number {
     const birthDate = new Date("2006-03-20");
@@ -45,6 +45,7 @@ export default function AboutMe() {
   const [ghStats, setGhStats] = useState<GhStats | null>(null);
 
   if (ghStats == null) {
+    setGhStats({ commits: 0, issues: 0, pullRequests: 0 });
     (async () => {
       const res = await fetch("/api/github-data");
       if (!res.ok) return;
@@ -59,7 +60,7 @@ export default function AboutMe() {
   
   return (
     <>
-    <section className="flex flex-col items-center min-h-[100vh] w-screen snap-start snap-always">
+    <section className="flex flex-col items-center min-h-[100vh] w-screen snap-start snap-always" id="about">
       <div className="flex flex-col w-[80%] mt-[10rem]">
         <h1 className="font-bold text-[5rem]">
           <TextAnimate animation="slideUp" by="line" delay={.1} segmentClassName="hello" once>
@@ -67,7 +68,7 @@ export default function AboutMe() {
           </TextAnimate>
         </h1>
         <h1 className="flex flex-row font-bold text-[5rem]">
-          <BlurFade direction="up" delay={.2} className="flex flex-row" inView>
+          <BlurFade direction="up" delay={.2} className="flex flex-row tracking-tighter" inView>
             I am
           </BlurFade>
           <TextAnimate
@@ -137,7 +138,7 @@ export default function AboutMe() {
           </div>
         </BlurFade>
       </div>
-      <FloatingScrollButton />
+      <FloatingScrollButton sectionIndex={0} />
     </section>
     <style>{`
       @keyframes wave {

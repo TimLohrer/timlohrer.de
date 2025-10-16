@@ -4,15 +4,19 @@ import { ArrowDown } from "lucide-react";
 import React, { useState } from "react";
 import { BlurFade } from "./ui/blur-fade";
 
-export default function FloatingScrollButton() {
+export default function FloatingScrollButton({ sectionIndex }: { sectionIndex: number }) {
   const [isVisible, setIsVsible] = useState<boolean | null>(null);
 
   React.useEffect(() => {
     const handleScroll = () => {
       const scrollContainer = document.querySelector(".snap-container");
       if (!scrollContainer) return;
-      // set isVisible only to true if i am almost fully scrolled into a section and hide it once i scroll to the next one
-      setIsVsible(scrollContainer.scrollTop % scrollContainer.clientHeight < 30);
+      const currentSection = Math.round(scrollContainer.scrollTop / scrollContainer.clientHeight);
+      if (currentSection != sectionIndex) {
+        setIsVsible(false);
+      } else {
+        setIsVsible(scrollContainer.scrollTop % scrollContainer.clientHeight < 30);
+      }
     };
     const scrollContainer = document.querySelector(".snap-container");
     if (!scrollContainer) return;
@@ -37,10 +41,10 @@ export default function FloatingScrollButton() {
             behavior: "smooth",
           });
         }}
-        className="p-2 bg-white/3 hover:bg-white/10 backdrop-blur-md rounded-md transition-all duration-300"
+        className="p-2 bg-white/10 hover:bg-white/15 backdrop-blur-md rounded-md transition-all duration-300"
         aria-label="Scroll to top"
       >
-        <ArrowDown />
+        <ArrowDown className="grouphover:scale-50 transition-all duration-300" />
       </button>
     </div>
     </BlurFade>

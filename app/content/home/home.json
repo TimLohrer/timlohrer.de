@@ -11,5 +11,138 @@
       "name": "GitHub",
       "url": "https://github.com/TimLohrer"
     }
+  ],
+  "projects": [
+    {
+      "slug": "noriskclient",
+      "name": "NoRisk Client",
+      "description": "NoRisk Client is a custom Minecraft Client and launcher with over 2k daily active users with cosmetics, minigames, hosted worlds and more!",
+      "longDescription": "NoRisk Client is a custom Minecraft Client with over 2k daily active users. It provides an extensive set of features e.g. securely hosting singleplayer worlds publicly via a custom proxy, play minigames like tetris against other players and useful in-game HUD overlays.",
+      "image": "/content/projects/noriskclient/icon.png",
+      "tags": ["Kotlin", "Java", "Rust", "Go", "Dart"],
+      "buttons": [
+        {
+          "type": "visit",
+          "iconUrl": null,
+          "label": "Website",
+          "url": "https://norisk.gg"
+        },
+        {
+          "type": "download",
+          "iconUrl": null,
+          "label": "Download",
+          "url": "https://norisk.gg/download"
+        },
+        {
+          "type": "issues",
+          "iconUrl": null,
+          "label": "Issues",
+          "url": "https://github.com/NoRiskClient/issues/issues"
+        }
+      ]
+    },
+    {
+      "slug": "galayxbot",
+      "name": "GalaxyBot",
+      "description": "GalaxyBot is a Discord Bot with over 3.8M users centered around support systems and advanced team management.",
+      "image": "/content/projects/galaxybot/icon.png",
+      "tags": ["DiscordJS", "TypeScript", "Next.js", "Vue"],
+      "buttons": [
+        {
+          "type": "visit",
+          "iconUrl": null,
+          "label": "Website",
+          "url": "https://galaxybot.app"
+        },
+        {
+          "type": "custom",
+          "iconUrl": null,
+          "label": "Invite",
+          "url": "https://galaxybot.app/go/invite"
+        }
+      ]
+    },
+    {
+      "slug": "auth-rs",
+      "name": "auth-rs",
+      "description": "auth-rs is a custom from scratch OAuth2 and OIDC compatible identity provider complete with 2FA and webauthn passkeys written in Rust and Svelte.",
+      "image": "/content/projects/auth-rs/icon.png",
+      "tags": ["Rust", "Svelte", "OCID", "OAuth2"],
+      "license": "MIT",
+      "buttons": [
+        {
+          "type": "source",
+          "iconUrl": null,
+          "label": "View Source",
+          "url": "https://github.com/TimLohrer/auth-rs"
+        },
+        {
+          "type": "download",
+          "iconUrl": null,
+          "label": "Releases",
+          "url": "https://github.com/TimLohrer/auth-rs/releases"
+        },
+        {
+          "type": "issues",
+          "iconUrl": null,
+          "label": "Issues",
+          "url": "https://github.com/TimLohrer/auth-rs/issues"
+        }
+      ]
+    },
+    {
+      "slug": "local-media-listener",
+      "name": "Local Media Listener",
+      "description": "A kotlin library that provides a simple way to subscibe to media changes on any device, by loading custom dlls that access the OS level media APIs.",
+      "image": "/content/projects/local-media-listener/icon.png",
+      "tags": ["Kotlin", "C++", "CMake"],
+      "license": "ARR",
+      "buttons": [
+        {
+          "type": "source",
+          "iconUrl": null,
+          "label": "View Source",
+          "url": "https://github.com/TimLohrer/local-media-listener"
+        }
+      ]
+    },
+    {
+      "slug": "spotify-overlay",
+      "name": "Spotify Overlay",
+      "description": "A Minecraft mod that provides an in-game overlay of your current playing Song. Data that is displayed is provided by the Local Media Listener library.",
+      "image": "/content/projects/spotify-overlay/icon.png",
+      "tags": ["Kotlin"],
+      "license": "ARR",
+      "buttons": [
+        {
+          "type": "source",
+          "iconUrl": null,
+          "label": "View Source",
+          "url": "https://github.com/TimLohrer/spotify-overlay"
+        },
+        {
+          "type": "download",
+          "iconUrl": null,
+          "label": "Download",
+          "url": "https://modrinth.com/mod/spotify-overlay"
+        }
+      ]
+    },
+    {
+      "slug": "portfolio",
+      "name": "Portfolio",
+      "description": "My personal website and portfolio, built using Next.js and Tailwind CSS and MagicUI.",
+      "image": "/content/projects/portfolio/icon.png",
+      "tags": ["Next.js", "Tailwind CSS", "TypeScript"],
+      "license": "MIT",
+      "buttons": [
+        {
+          "type": "source",
+          "iconUrl": null,
+          "label": "View Source",
+          "url": "https://github.com/TimLohrer/timlohrer.dev"
+        }
+      ]
+    }
   ]
 }
