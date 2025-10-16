@@ -22,7 +22,7 @@ export default function FloatingScrollButton({ sectionIndex }: { sectionIndex: n
     if (!scrollContainer) return;
     scrollContainer.addEventListener("scroll", handleScroll);
     return () => scrollContainer.removeEventListener("scroll", handleScroll);
-  }, []);
+  }, [sectionIndex]);
 
   if (isVisible == false) return null;
 
@@ -44,7 +44,7 @@ export default function FloatingScrollButton({ sectionIndex }: { sectionIndex: n
         className="p-2 bg-white/10 hover:bg-white/15 backdrop-blur-md rounded-md transition-all duration-300"
         aria-label="Scroll to top"
       >
-        <ArrowDown className="grouphover:scale-50 transition-all duration-300" />
+        <ArrowDown className="group-hover:scale-50 transition-all duration-300" />
       </button>
     </div>
     </BlurFade>

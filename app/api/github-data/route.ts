@@ -1,6 +1,12 @@
 import { NextResponse } from "next/server";
 
-let cachedData: any = null;
+type Contributions = {
+  totalCommitContributions: number;
+  totalIssueContributions: number;
+  totalPullRequestContributions: number;
+};
+
+let cachedData: Contributions | null = null;
 let cacheTime = 0;
 
 export async function GET() {
@@ -43,7 +49,8 @@ export async function GET() {
     return NextResponse.json({ error: "Failed to fetch from GitHub" }, { status: 500 });
   }
 
-  const data = await res.json();
+  const data: { data: { viewer: { contributionsCollection: Contributions } } } =
+    await res.json();
 
   cachedData = data.data.viewer.contributionsCollection;
   cacheTime = now;

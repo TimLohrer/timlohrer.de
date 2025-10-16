@@ -5,6 +5,25 @@ import { BlurFade } from "@/components/ui/blur-fade";
 import ProjectCard from "@/components/project-card";
 import Footer from "@/components/footer";
 
+type ProjectButton = {
+  type: "source" | "issues" | "download" | "visit" | "custom";
+  iconUrl: string | null;
+  label: string;
+  url: string;
+  extended?: boolean | null;
+};
+
+type Project = {
+  slug: string;
+  name: string;
+  description: string;
+  longDescription?: string;
+  image?: string;
+  tags: string[];
+  license?: string;
+  buttons: ProjectButton[];
+};
+
 export default function Projects() {
   return (
     <>
@@ -16,15 +35,15 @@ export default function Projects() {
         <p className="text-[.95rem] mt-[1rem] opacity-75">These are by far not all projects I have worked on. To see more, check out my GitHub linked at the top!</p>
       </BlurFade>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 w-[80%] mt-[5rem] mb-[10rem]">
-        {projects.map((project: any, index: number) => (
+        {projects.map((project, index: number) => (
           <BlurFade direction="up" delay={0.5 + .1 * (index + 1)} key={index} inView>
             <ProjectCard
               name={project.name}
               description={project.description}
-              longDescription={project.longDescription}
+              longDescription={project.longDescription ?? undefined}
               image={project.image}
               tags={project.tags}
-              buttons={project.buttons}
+              buttons={project.buttons as ProjectButton[]}
               license={project.license}
             />
           </BlurFade>

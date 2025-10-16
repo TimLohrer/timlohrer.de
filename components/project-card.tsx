@@ -1,23 +1,21 @@
 "use client";
 
-import { useState, useRef, MouseEvent, useEffect } from "react";
-import { SocialIcon } from "react-social-icons";
+import { useState, useRef, MouseEvent } from "react";
 import Button from "./button";
 import { Bug, Code, Download, ExternalLink, Globe } from "lucide-react";
-import { li } from "motion/react-client";
 
 interface ProjectButton {
   type: string;
   iconUrl: string | null;
   label: string;
   url: string;
-  extended: boolean | null | undefined;
+  extended?: boolean | null | undefined;
 }
 
 interface ProjectCardProps {
   name: string;
   description: string;
-  longDescription: string;
+  longDescription?: string;
   image?: string;
   tags: string[];
   buttons: ProjectButton[];
@@ -106,7 +104,7 @@ export default function ProjectCard({
       >
         <div
           className={`
-            hover:gradient-border border-1 rounded-xl transition-all duration-300 pointer-events-none
+            gradient-border border rounded-xl transition-all duration-300 pointer-events-none
             ${isHovered ? "opacity-100" : "opacity-75"}
           `}
         >
@@ -120,7 +118,7 @@ export default function ProjectCard({
             <div className="p-6 space-y-4">
               <div className="flex items-center gap-3">
                 {image && (
-                  <div className="relative w-12 h-12 rounded-md overflow-hiddenflex-shrink-0">
+                  <div className="relative w-12 h-12 rounded-md overflow-hidden flex-shrink-0">
                     <img
                       src={image}
                       alt={name}
