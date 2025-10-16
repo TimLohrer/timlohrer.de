@@ -1,4 +1,4 @@
-FROM oven/bun:latest as builder
+FROM oven/bun:latest AS builder
 
 WORKDIR /app/next-app
 
@@ -9,11 +9,11 @@ RUN bun install
 
 COPY . .
 
-ENV NEXT_TELEMETRY_DISABLED 1
+ENV NEXT_TELEMETRY_DISABLED=1
 
 RUN bun next build
 
-FROM oven/bun:latest
+FROM oven/bun:latest AS runner
 
 WORKDIR /app
 
