@@ -1,11 +1,15 @@
 {
-    "aboutMe": [
-        "A 19 year old full stack developer from Germany.",
-        "I have over 5+ years of experience in various programming languages, tools and tech-stacks.",
-        "Projects I have worked on include ChatBots, WebApps, cross-platform mobile and desktop Apps, REST APIs and more.",
-        "I am always eager to learn new things, take on bigger challenges, and improve my skills."
-    ],
-    "socialButtons": [
-        { "network": "github", "name": "GitHub", "url": "https://github.com/TimLohrer" }
-    ]
+  "aboutMe": [
+    "A {{AGE}} year old full stack developer from Germany.",
+    "I have over {{EXPERIENCE}} years of experience in various programming languages, tools and tech-stacks.",
+    "Projects I have worked on include ChatBots, WebApps, cross-platform mobile and desktop Apps, REST APIs and more.",
+    "I am always eager to learn new things, take on bigger challenges, and improve my skills."
+  ],
+  "socialButtons": [
+    {
+      "network": "github",
+      "name": "GitHub",
+      "url": "https://github.com/TimLohrer"
+    }
+  ]
 }
