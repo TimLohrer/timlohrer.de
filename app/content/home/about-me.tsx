@@ -61,13 +61,13 @@ export default function AboutMe() {
   return (
     <>
     <section className="flex flex-col items-center min-h-[100vh] w-screen snap-start snap-always" id="about">
-      <div className="flex flex-col w-[80%] mt-[10rem]">
-        <h1 className="font-bold text-[5rem]">
+      <div className="flex flex-col w-[80%] mt-[5rem] lg:mt-[10rem]">
+        <h1 className="font-bold text-[2rem] lg:text-[5rem]">
           <TextAnimate animation="slideUp" by="line" delay={.1} segmentClassName="hello" once>
             Hello 👋
           </TextAnimate>
         </h1>
-        <h1 className="flex flex-row font-bold text-[5rem]">
+        <h1 className="flex flex-row font-bold text-[1.5rem] lg:text-[5rem]">
           <BlurFade direction="up" delay={.2} className="flex flex-row tracking-tighter" inView>
             I am
           </BlurFade>
@@ -84,7 +84,7 @@ export default function AboutMe() {
               .
             </TextAnimate>
         </h1>
-        <div className="mt-[2rem] text-[1.15rem]">
+        <div className="mt-[2rem] text-[0.9rem] lg:text-[1.15rem]">
           {aboutMe.map((text: string, index: number) => {
             return (
               <TextAnimate animation="slideUp" by="word" delay={0.35 + index * 0.15} once key={index}>
@@ -112,28 +112,28 @@ export default function AboutMe() {
           </div>
         </BlurFade>
         <BlurFade className="mt-[5rem]" direction="down" delay={1} inView>
-          <h2 className="text-[1.15rem] mb-4">GitHub Stats (last 12 months)</h2>
-          <div className="flex flex-row gap-20">
-            <div className="flex flex-col">
-              <div className="flex items-center gap-2">
-                <GitCommit size={20} />
-                <p className="text-[1rem]">Commits</p>
+          <h2 className="text-[0.8rem] lg:text-[1.15rem] mb-4">GitHub Stats (last 12 months)</h2>
+          <div className="flex flex-row gap-6 lg:gap-20">
+            <div className="flex flex-col items-center">
+              <div className="flex items-center gap-1 lg:gap-2">
+                <GitCommit className="size-5 lg:size-7" />
+                <p className="text-[0.75rem] lg:text-[1rem]">Commits</p>
               </div>
-              <NumberTicker value={ghStats?.commits ?? 0} delay={1} className="font-bold text-[2rem]" />
+              <NumberTicker value={ghStats?.commits ?? 0} delay={1} className="font-bold text-[1.5rem] lg:text-[2rem]" />
             </div>
             <div className="flex flex-col">
-              <div className="flex items-center gap-2">
-                <Bug size={20} />
-                <p className="text-[1rem]">Issues</p>
+              <div className="flex items-center gap-1 lg:gap-2">
+                <Bug className="size-3 lg:size-5" />
+                <p className="text-[0.75rem] lg:text-[1rem]">Issues</p>
               </div>
-              <NumberTicker value={ghStats?.issues ?? 0} delay={1} className="font-bold text-[2rem]" />
+              <NumberTicker value={ghStats?.issues ?? 0} delay={1} className="font-bold text-[1.5rem] lg:text-[2rem]" />
             </div>
             <div className="flex flex-col">
-              <div className="flex items-center gap-2">
-                <GitPullRequest size={20} />
-                <p className="text-[1rem]">Pull Requests</p>
+              <div className="flex items-center gap-1 lg:gap-2">
+                <GitPullRequest className="size-3 lg:size-5" />
+                <p className="text-[0.75rem] lg:text-[1rem]">Pull Requests</p>
               </div>
-              <NumberTicker value={ghStats?.pullRequests ?? 0} delay={1} className="font-bold text-[2rem]" />
+              <NumberTicker value={ghStats?.pullRequests ?? 0} delay={1} className="font-bold text-[1.5rem] lg:text-[2rem]" />
             </div>
           </div>
         </BlurFade>

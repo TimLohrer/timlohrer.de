@@ -36,7 +36,7 @@ export default function ScrollIndicator({ sections }: ScrollIndicatorProps) {
   };
 
   return (
-    <div className="fixed left-8 top-1/2 -translate-y-1/2 z-50">
+    <div className="fixed left-3 lg:left-8 top-1/2 -translate-y-1/2 z-50">
       <div className="relative flex flex-col items-start gap-4">
         {sections.map((sectionName, index) => (
         <div key={index} className="relative">
@@ -47,7 +47,7 @@ export default function ScrollIndicator({ sections }: ScrollIndicatorProps) {
           >
             <div
               className={`
-                w-3 h-3 rounded-full border-2 transition-all duration-300 bg-background
+                w-2 h-2 lg:w-3 lg:h-3 rounded-full border-1 lg:border-2 transition-all duration-300 bg-background
                 ${
                   activeSection === index
                     ? "border-white scale-125"
@@ -61,7 +61,7 @@ export default function ScrollIndicator({ sections }: ScrollIndicatorProps) {
             </div>
             <span
               className={`
-                text-sm font-medium transition-all duration-300
+                text-sm font-medium transition-all duration-300 hidden lg:block
                 ${
                   activeSection === index
                     ? "opacity-100 translate-x-0"
@@ -75,7 +75,7 @@ export default function ScrollIndicator({ sections }: ScrollIndicatorProps) {
           
           {/* Line to next circle */}
           {index < sections.length - 1 && (
-            <div className="absolute left-[5px] w-[2px] rounded-md h-4 bg-white/20" />
+            <div className="absolute left-[3px] lg:left-[5px] w-[2px] rounded-md h-4 bg-white/20" />
           )}
         </div>
         ))}
