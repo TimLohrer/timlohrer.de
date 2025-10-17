@@ -105,7 +105,7 @@ export default function ProjectCard({
         <div
           className={`
             border-1 rounded-xl transition-all duration-300 pointer-events-none
-            ${isHovered ? "opacity-100" : "opacity-75"}
+            ${isHovered ? "opacity-100" : "opacity-95 lg:opacity-75"}
           `}
         >
           <div

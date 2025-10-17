@@ -29,7 +29,7 @@ export default function Projects() {
     <>
     <section className="flex flex-col items-center min-h-[100vh] w-screen snap-start snap-always" id="projects">
       <BlurFade direction="up" delay={.25} inView>
-        <h1 className="text-[3rem] font-bold mt-[5rem]">Projects</h1>
+        <h1 className="text-[3rem] font-bold mt-[3.5rem] lg:mt-[5rem]">Projects</h1>
       </BlurFade>
       <BlurFade direction="up" delay={.35} inView>
         <p className="text-[.95rem] mt-[1rem] opacity-75 mx-[2rem] text-center">These are by far not all projects I have worked on. To see more, check out my GitHub linked at the top!</p>

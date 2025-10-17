@@ -11,7 +11,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${sfMono.className} dark antialiased w-screen h-screen overflow-hidden`}>
         <Background />
-        <div className="snap-container relative z-10 flex flex-col overflow-y-scroll h-screen snap-y snap-mandatory scroll-smooth">
+        <div className="snap-container relative z-10 flex flex-col overflow-y-scroll h-screen snap-y scroll-smooth">
           {children}
         </div>
       </body>

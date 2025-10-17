@@ -99,19 +99,21 @@ export default function AboutMe() {
               return (
                 <Button
                     key={index}
-                    style={{ padding: 0, paddingRight: 10 }}
+                    style={{ padding: 0 }}
                     onClick={() => window.open(button.url, "_blank")}
-                    className="hover:border-gray-600 transition-all transition-duration-300"
+                    className="hover:border-gray-600 transition-all transition-duration-300 lg:pr-10 pr-0"
                 >
                   <SocialIcon network={button.network} fgColor="white" bgColor="transparent" style={{ height: 45, width: 45 }} />
-                  {button.name}
-                  <ExternalLink size={16} className="ml-1" />
+                  <span className="hidden lg:inline ml-2">
+                    {button.name}
+                    <ExternalLink size={16} className="ml-1" />
+                  </span>
                 </Button>
               )
             })}
           </div>
         </BlurFade>
-        <BlurFade className="mt-[5rem]" direction="down" delay={1} inView>
+        <BlurFade className="mt-[3.5rem] lg:mt-[5rem]" direction="down" delay={1} inView>
           <h2 className="text-[0.8rem] lg:text-[1.15rem] mb-4">GitHub Stats (last 12 months)</h2>
           <div className="flex flex-row gap-6 lg:gap-20">
             <div className="flex flex-col items-center">
@@ -131,7 +133,10 @@ export default function AboutMe() {
             <div className="flex flex-col">
               <div className="flex items-center gap-1 lg:gap-2">
                 <GitPullRequest className="size-3 lg:size-5" />
-                <p className="text-[0.75rem] lg:text-[1rem]">Pull Requests</p>
+                <p className="text-[0.75rem] lg:text-[1rem]">
+                  <span className="hidden lg:inline">Pull Requests</span>
+                  <span className="lg:hidden">PR's</span>
+                </p>
               </div>
               <NumberTicker value={ghStats?.pullRequests ?? 0} delay={1} className="font-bold text-[1.5rem] lg:text-[2rem]" />
             </div>
