@@ -101,12 +101,12 @@ export default function AboutMe() {
                     key={index}
                     style={{ padding: 0 }}
                     onClick={() => window.open(button.url, "_blank")}
-                    className="hover:border-gray-600 transition-all transition-duration-300 lg:pr-10 pr-0"
+                    className="hover:border-gray-600 transition-all transition-duration-300"
                 >
                   <SocialIcon network={button.network} fgColor="white" bgColor="transparent" style={{ height: 45, width: 45 }} />
-                  <span className="hidden lg:inline ml-2">
+                  <span className="items-center hidden lg:flex">
                     {button.name}
-                    <ExternalLink size={16} className="ml-1" />
+                    <ExternalLink size={16} className="ml-2 mr-3" />
                   </span>
                 </Button>
               )
