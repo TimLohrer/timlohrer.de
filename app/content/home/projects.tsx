@@ -40,7 +40,6 @@ export default function Projects() {
             <ProjectCard
               name={project.name}
               description={project.description}
-              longDescription={project.longDescription ?? undefined}
               image={project.image}
               tags={project.tags}
               buttons={project.buttons as ProjectButton[]}

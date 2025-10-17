@@ -135,7 +135,7 @@ export default function AboutMe() {
                 <GitPullRequest className="size-3 lg:size-5" />
                 <p className="text-[0.75rem] lg:text-[1rem]">
                   <span className="hidden lg:inline">Pull Requests</span>
-                  <span className="lg:hidden">PR's</span>
+                  <span className="lg:hidden">PR&apos;s</span>
                 </p>
               </div>
               <NumberTicker value={ghStats?.pullRequests ?? 0} delay={1} className="font-bold text-[1.5rem] lg:text-[2rem]" />
