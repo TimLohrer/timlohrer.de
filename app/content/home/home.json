@@ -67,7 +67,7 @@
       "name": "auth-rs",
       "description": "auth-rs is a custom from scratch OAuth2 and OIDC compatible identity provider complete with 2FA and webauthn passkeys written in Rust and Svelte.",
       "image": "/content/projects/auth-rs/icon.png",
-      "tags": ["Rust", "Svelte", "OCID", "OAuth2"],
+      "tags": ["Rust", "Svelte", "OIDC", "OAuth2"],
       "license": "MIT",
       "buttons": [
         {
