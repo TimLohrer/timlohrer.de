@@ -16,8 +16,8 @@
     {
       "slug": "noriskclient",
       "name": "NoRisk Client",
-      "description": "NoRisk Client is a custom Minecraft Client and launcher with over 2k daily active users with cosmetics, minigames, hosted worlds and more!",
-      "longDescription": "NoRisk Client is a custom Minecraft Client with over 2k daily active users. It provides an extensive set of features e.g. securely hosting singleplayer worlds publicly via a custom proxy, play minigames like tetris against other players and useful in-game HUD overlays.",
+      "description": "NoRisk Client is a custom Minecraft Client and launcher with over 3k daily active users with cosmetics, minigames, hosted worlds and more!",
+      "longDescription": "NoRisk Client is a custom Minecraft Client with over 3k daily active users. It provides an extensive set of features e.g. securely hosting singleplayer worlds publicly via a custom proxy, play minigames like tetris against other players and useful in-game HUD overlays.",
       "image": "/content/projects/noriskclient/icon.png",
       "tags": ["Kotlin", "Java", "Rust", "Go", "Dart"],
       "buttons": [
