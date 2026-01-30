@@ -77,9 +77,7 @@ export default function AboutMe() {
                 by="character" 
                 delay={0.075}
                 once
-              >
-                Tim Lohrer
-              </TextAnimate>
+              >Tim</TextAnimate>
               <TextAnimate animation="slideRight" delay={.7} once>
                 .
               </TextAnimate>
