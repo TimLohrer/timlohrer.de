@@ -16,8 +16,8 @@
     {
       "slug": "noriskclient",
       "name": "NoRisk Client",
-      "description": "NoRisk Client is a custom Minecraft Client and launcher with over 3k daily active users with cosmetics, minigames, hosted worlds and more!",
-      "longDescription": "NoRisk Client is a custom Minecraft Client with over 3k daily active users. It provides an extensive set of features e.g. securely hosting singleplayer worlds publicly via a custom proxy, play minigames like tetris against other players and useful in-game HUD overlays.",
+      "description": "NoRisk Client is a custom Minecraft Client and launcher with cosmetics, minigames, hosted worlds and more!",
+      "longDescription": "NoRisk Client is a custom Minecraft Client. It provides an extensive set of features e.g. securely hosting singleplayer worlds publicly via a custom proxy, play minigames like tetris against other players and useful in-game HUD overlays.",
       "image": "/content/projects/noriskclient/icon.png",
       "tags": ["Kotlin", "Java", "Rust", "Go", "Dart"],
       "buttons": [
@@ -44,7 +44,7 @@
     {
       "slug": "galayxbot",
       "name": "GalaxyBot",
-      "description": "GalaxyBot is a Discord Bot with over 3.8M users centered around support systems and advanced team management.",
+      "description": "GalaxyBot is a Discord Bot with over 6M users centered around support systems and advanced team management.",
       "image": "/content/projects/galaxybot/icon.png",
       "tags": ["DiscordJS", "TypeScript", "Next.js", "Vue"],
       "buttons": [
@@ -91,18 +91,23 @@
       ]
     },
     {
-      "slug": "local-media-listener",
-      "name": "Local Media Listener",
-      "description": "A kotlin library that provides a simple way to subscibe to media changes on any device, by loading custom dlls that access the OS level media APIs.",
-      "image": "/content/projects/local-media-listener/icon.png",
-      "tags": ["Kotlin", "C++", "CMake"],
-      "license": "ARR",
+      "slug": "timage",
+      "name": "timage",
+      "description": "A simple and fast terminal image renderer written in Rust. It supports various output formats like ascii, colored ascii and full colored pixels.",
+      "image": "/content/projects/timage/icon.png",
+      "tags": ["Rust", "Terminal"],
       "buttons": [
         {
           "type": "source",
           "iconUrl": null,
           "label": "View Source",
-          "url": "https://github.com/TimLohrer/local-media-listener"
+          "url": "https://github.com/TimLohrer/timage"
+        },
+        {
+          "type": "download",
+          "iconUrl": null,
+          "label": "Releases",
+          "url": "https://github.com/TimLohrer/timage/releases/latest"
         }
       ]
     },
